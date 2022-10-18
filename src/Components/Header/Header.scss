@@ -1,0 +1,40 @@
+header {
+  position: fixed;
+  display:flex;
+  flex-direction: row;
+  height: 75px;
+  width: 100%;
+  margin-bottom: 75px;
+  justify-content: space-between;
+
+  .site-functions{
+    display: inherit;
+    flex-direction: inherit;
+    height: inherit;
+    align-content: center;
+    div {
+      width: 50px;
+    }
+    input {
+      height: 65%;
+      width: 100%;
+      margin: auto;
+    }
+  }
+  .user-icons{
+    display: inherit;
+    flex-direction: inherit;
+    height: inherit;
+
+    .icon-container {
+      justify-content: center;
+      align-items: center;
+
+      .header-icon {
+        width: 75px;
+        height: 75px;
+      }
+    }
+  }
+  
+}
